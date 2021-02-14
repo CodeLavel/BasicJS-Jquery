@@ -1,0 +1,8 @@
+export default class User{ //มีการเติมคำว่า default ไปหลัง export
+    constructor(name){
+        this.name = name
+    }
+    sayHi(){
+        console.log('Hi'+this.name);
+    }
+}
